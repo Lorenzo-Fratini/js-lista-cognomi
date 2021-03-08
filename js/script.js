@@ -3,4 +3,8 @@ var input = prompt('inserisci il tuo cognome:');
 surname.push(input);
 surname.sort();
 
-console.log((surname.indexOf(input) + 1) + ' ' + input);
+for (var i=0;i<surname.length;i++){
+  console.log(surname[i]);
+}
+
+console.log(surname.indexOf(input) + 1);
